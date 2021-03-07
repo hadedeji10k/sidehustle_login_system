@@ -70,13 +70,16 @@
 
                 $_SESSION['username'] = $_POST['username'];
                   $_SESSION['password'] = $_POST['password'];
-				
+
+               echo "You are now registered!";
                 header('Refresh: 1; URL = login.php');
 
             }
          ?>
-    
-      <h2>Enter Your Username and Password</h2>
+
+      
+      <h2> Register </h2>
+      <h3>Enter Your Username and Password</h3>
       
       <div class = "container">
       
